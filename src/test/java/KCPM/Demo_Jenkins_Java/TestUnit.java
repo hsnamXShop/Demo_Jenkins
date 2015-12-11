@@ -19,7 +19,7 @@ public class TestUnit extends Function
 	@Test
 	public void TestTruHaiSoNguyen()
 	{
-		Assert.assertEquals(5, TruHaiSoNguyen(8, 3));
+		Assert.assertEquals(5, TruHaiSoNguyen(8, 2));
 	}
 	
 }
