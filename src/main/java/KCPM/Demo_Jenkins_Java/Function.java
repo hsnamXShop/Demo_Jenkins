@@ -5,4 +5,9 @@ public class Function {
 	{
 		return a + b;
 	}
+	
+	public int TruHaiSoNguyen(int a, int b)
+	{
+		return a - b;
+	}
 }
