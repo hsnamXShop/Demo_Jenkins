@@ -24,7 +24,7 @@ public class TestUnit extends Function
 	@Test
 	public void TestNhanHaiSoNguyen()
 	{
-		Assert.assertEquals(2, NhanHaiSoNguyen(2, 2));
+		Assert.assertEquals(4, NhanHaiSoNguyen(2, 2));
 	}
 	
 }
