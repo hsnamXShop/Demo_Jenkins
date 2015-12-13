@@ -13,7 +13,7 @@ public class TestUnit extends Function
 	@Test
 	public void TestCongHaiSoNguyen()
 	{
-		Assert.assertEquals(4, CongHaiSoNguyen(1, 2));
+		Assert.assertEquals(3, CongHaiSoNguyen(1, 2));
 	}
 	
 	@Test
@@ -24,7 +24,7 @@ public class TestUnit extends Function
 	@Test
 	public void TestNhanHaiSoNguyen()
 	{
-		Assert.assertEquals(4, NhanHaiSoNguyen(2, 2));
+		Assert.assertEquals(2, NhanHaiSoNguyen(2, 2));
 	}
 	
 }
