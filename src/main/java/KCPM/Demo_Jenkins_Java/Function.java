@@ -10,4 +10,8 @@ public class Function {
 	{
 		return a - b;
 	}
+	public double NhanHaiSoNguyen(int a, int b)
+	{
+		return a + b;
+	}
 }
