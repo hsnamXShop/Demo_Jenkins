@@ -21,5 +21,10 @@ public class TestUnit extends Function
 	{
 		Assert.assertEquals(-1, TruHaiSoNguyen(1, 2));
 	}
+	@Test
+	public void TestNhanHaiSoNguyen()
+	{
+		Assert.assertEquals(4, NhanHaiSoNguyen(2, 2));
+	}
 	
 }
